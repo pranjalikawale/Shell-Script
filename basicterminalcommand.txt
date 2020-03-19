@@ -1,0 +1,211 @@
+1  cd pranjalikawale/terminalcommand
+  
+2  java hello &
+    
+3  history
+   
+4  history >
+ terminal.txt   
+5  pwd
+    
+6  ls .
+    
+7  ls ..
+    
+8  ls ~
+   
+9  ls -a
+   
+10  ls -l
+  
+11  mkdir folder
+   
+12  ls
+   
+13  rm -r folder
+   
+14  ls
+   
+15  mkdir folder
+   
+16  mkdir -p folder/temp
+   
+17  ls
+   
+18  cd folder
+   
+19  ls
+   
+20  cd ~
+   
+21  touch file1
+   
+22  ls -p
+   
+23  cp file1 file2
+   
+24  ls -p
+   
+25  mv file1 folder/temp
+   
+26  ls folder/temp
+   
+27  ln -s file2 folder/temp
+   
+28  ln -s file1 folder/temp
+   
+29  ln -s file2 folder/temp
+   
+30  ln -s ../temp
+   
+31  ln -s 
+   
+32  whereis ls
+   
+33  ls
+   
+34  whereis ls
+   
+35  ls folder/temp
+   
+36  whereis ls
+   
+37  java -version
+   
+38  man ls
+   
+39  man ls
+   
+40  man
+   
+41  man -p
+   
+42  ls
+   
+43  whereis ls
+   
+44  ls -l /folder/temp
+   
+45  ls -l /folder/temp
+   
+46  ls -l 
+   
+47  cd folder/temp
+   
+48  ls -l 
+   
+49  whereis ls
+   
+50  less /folder/temp
+   
+51  less 
+   
+52  cd folder
+  
+53  cd ..
+   
+54  less /temp
+   
+55  cd .
+   
+56  cd temp
+   
+57  less file1
+   
+58  cat file1>
+   
+59  cat >file1
+   
+60  head file1
+   
+61  tail file1
+   
+62  head -2 file1
+   
+63  tail -2 file1
+   
+64  cat file1
+   
+65  find . -size +0kb
+   
+66  find . -size +0k
+   
+67  find . -name *.txt
+   
+68  touch abc.txt
+   
+69  find . -name *.txt
+   
+70  ls
+   
+71  find . -type f | grep txt
+   
+72  cat file1 | grep h
+   
+73  grep h
+   
+74  cd ..
+   
+75  ls 
+   
+76  touch test.txt
+   
+77  ls
+   
+78  ls -p | grep /
+   
+79  env
+   
+80  env | grep shell
+   
+81  env | grep SHELL
+   
+82  du -sh
+   
+83  cd ..
+   
+84* du -shistorh
+   
+85  cd ..
+   
+86  cd folder/tempcd ..
+   
+87  $ historycd ..
+   
+88  du -h
+   
+89  cd ~
+   
+90  du -sh folder
+   
+91  cd folder
+   
+92  du -sh 
+   
+93  cd ~
+   
+94  du -sh | sort -n
+   
+95  mv file2 folder/temp
+   
+96  ls
+   
+97  ls folder/temp
+   
+98  nano hello.java 
+   
+99  javac hello.java
+  
+100  nano hello.java 
+  
+101  javac helloworld.java
+  
+102  java helloworld
+  
+103  cd pranjalikawale
+  
+104  history >terminalCommand.txt
+  
+105  cd terminalcommand
+  
+106  history >basicterminalcommand.txt
