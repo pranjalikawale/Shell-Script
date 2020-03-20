@@ -4,7 +4,7 @@ public class hello{
 		{
 			System.out.println("Hello World");
 		try{
-				Thread.sleep(40000);
+				Thread.sleep(4000000);
 			}
 		catch(Exception e)
 		{
