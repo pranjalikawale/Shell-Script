@@ -1,0 +1,421 @@
+    1  cd pranjalikawale/terminalcommand
+    2  java hello &
+    3  history
+    4  history >
+    5  pwd
+    6  ls .
+    7  ls ..
+    8  ls ~
+    9  ls -a
+   10  ls -l
+   11  mkdir folder
+   12  ls
+   13  rm -r folder
+   14  ls
+   15  mkdir folder
+   16  mkdir -p folder/temp
+   17  ls
+   18  cd folder
+   19  ls
+   20  cd ~
+   21  touch file1
+   22  ls -p
+   23  cp file1 file2
+   24  ls -p
+   25  mv file1 folder/temp
+   26  ls folder/temp
+   27  ln -s file2 folder/temp
+   28  ln -s file1 folder/temp
+   29  ln -s file2 folder/temp
+   30  ln -s ../temp
+   31  ln -s 
+   32  whereis ls
+   33  ls
+   34  whereis ls
+   35  ls folder/temp
+   36  whereis ls
+   37  java -version
+   38  man ls
+   39  man -ls
+   40  man
+   41  man -p
+   42  ls
+   43  whereis ls
+   44  ls -l /folder/temp
+   45  ls -l /folder/temp
+   46  ls -l 
+   47  cd folder/temp
+   48  ls -l 
+   49  whereis ls
+   50  less /folder/temp
+   51  less 
+   52  cd folder
+   53  cd ..
+   54  less /temp
+   55  cd .
+   56  cd temp
+   57  less file1
+   58  cat file1>
+   59  cat >file1
+   60  head file1
+   61  tail file1
+   62  head -2 file1
+   63  tail -2 file1
+   64  cat file1
+   65  find . -size +0kb
+   66  find . -size +0k
+   67  find . -name *.txt
+   68  touch abc.txt
+   69  find . -name *.txt
+   70  ls
+   71  find . -type f | grep txt
+   72  cat file1 | grep h
+   73  grep h
+   74  cd ..
+   75  ls 
+   76  touch test.txt
+   77  ls
+   78  ls -p | grep /
+   79  env
+   80  env | grep shell
+   81  env | grep SHELL
+   82  du -sh
+   83  cd ..
+   84  du -shistorh
+   85  cd ..
+   86  d folder/tempcd ..
+   87  $ historycd ..
+   88  du -h
+   89  cd ~
+   90  du -sh folder
+   91  cd folder
+   92  du -sh 
+   93  cd ~
+   94  du -sh | sort -n
+   95  mv file2 folder/temp
+   96  ls
+   97  ls folder/temp
+   98  nano helloworld.java 
+   99  javac helloworld.java
+  100  nano helloworld.java 
+  101  javac helloworld.java
+  102  java helloworld
+  103  cd pranjalikawale
+  104  history >terminalCommand.txt
+  105  cd terminalcommand
+  106  history >basicterminalcommand.txt
+  107  git init
+  108  git add .
+  109  git commit -m "basic terminal command 19/03/20"
+  110  cd ~
+  111  rn pranjalikawale pranjali
+  112  mkdir pranjali
+  113  mv pranjalikawale pranjali
+  114  mv pranjalikawale/ pranjali
+  115  mv pranjalikawale/terminalcommand pranjali
+  116  git init
+  117  cd pranjalikawale
+  118  cd terminalcommand
+  119  git init
+  120  git commit -m "basic terminal command 19/03/20"
+  121  git add .
+  122  git commit -m "basic terminal command 19/03/20"
+  123  git init
+  124  git add .
+  125  g
+  126  git config --global user.email "pranjalikawale1578@gmail.com"
+  127  git config --global user.name "pranjalikawale"
+  128  git remote add origin https://github.com/pranjalikawale/pranjali.git
+  129  git push -u origin master
+  130  git push origin master
+  131  git add
+  132  clear
+  133  git add .
+  134  git commit -m "basic terminal command 19/03/20"
+  135  git remote add origin https://github.com/pranjalikawale/pranjali.git
+  136  git push origin master
+  137  git push origin master
+  138  cd ~
+  139  history > processingGit.txt
+  140  pwd
+  141  git add .
+  142  cd pranjalikawale
+  143  cd pranjalikawale
+  144  cd terminalcommand
+  145  nano -T 3 helloworld.java
+  146  nano -T 3 hello.java
+  147  ls -l
+  148  java hello &
+  149  nano -T 3 hello.java
+  150  javac hello.java
+  151  java hello &
+  152  ps -elf | grep java | grep -v grep
+  153  ps -elf | grep java 
+  154  ps -elf | grep java | grep -v grep
+  155  javac hello.java
+  156  java hello &
+  157  ps -elf | grep java 
+  158  ps -elf | grep java | grep -v grep
+  159  java hello &
+  160  ps -elf | grep java | grep -v grep
+  161  java hello &
+  162  ps -elf | grep java 
+  163  java hello &
+  164  ps -elf | grep java 
+  165  ps -elf | grep java | grep -v grep
+  166  java hello &
+  167  ps -elf 
+  168  ps -elf | grep java 
+  169  java hello &
+  170  ps -elf 
+  171  ps -elf | grep java 
+  172  ps -elf | grep java | grep -v grep
+  173  jobs
+  174  nano -T 3 hello.java 
+  175  java hello &
+  176  nano -T 3 hello.java 
+  177  java hello &
+  178  ps -elf | grep java | grep -v grep
+  179  ps -elf | grep java 
+  180  ps -elf | grep java | grep -v grep
+  181  jobs
+  182  nano -T 3 hello.java 
+  183  java hello &
+  184  ps -elf | grep java | grep -v grep
+  185  ps -elf | grep java | grep -v grep
+  186  jobs
+  187  nano -T 3 hello.java 
+  188  java hello &
+  189  ps -elf | grep java | grep -v grep
+  190  nano -T 3 hello.java 
+  191  javac hello,java
+  192  javac hello.java
+  193  nano -T 3 hello.java 
+  194  javac hello.java
+  195  nano -T 3 hello.java 
+  196  java hello &
+  197  ps -elf | grep java | grep -v grep
+  198  jobs
+  199  fg %1
+  200  bg %1
+  201  jobs
+  202  killall java
+  203  clear
+  204  nano -T 3 hello.java 
+  205  history
+  206  history
+  207  history > output.txt
+  208  history > output.sh
+  209  pwd
+  210      1  cd pranjalikawale/terminalcommand
+  211      2  java hello &
+  212      3  history
+  213      4  history >
+  214      1  cd pranjalikawale/terminalcommand
+  215      2  java hello &
+  216      3  history
+  217      4  history >
+  218  history
+  219  cd pranjalikawale/terminalcommand
+  220  mkdir
+  221  mkdir process
+  222  history
+  223  nano pocess.sh
+  224  cd pranjalikawale
+  225  cd pranjalikawale/terminalcommand
+  226  clear
+  227  clear
+  228  c~
+  229  cd ~
+  230  clear
+  231  cd pranjalikawale
+  232  cd terminalcommand
+  233  nano -T 3 helloworld.java
+  234  nano -T 3 hello.java
+  235  javac hello.java
+  236  java hello &
+  237  ps -elf | grep java | grep -v grep
+  238  jobs
+  239   fg %1
+  240   
+  241   fg %1
+  242  java hello &
+  243  jobs
+  244   fg %1
+  245   bg %1
+  246  killall java
+  247  java hello &
+  248   bg %1
+  249   fg %1
+  250   fg %1
+  251  killall java
+  252  nano process.sh
+  253  nano process.sh
+  254  nano process.sh
+  255  git add .
+  256  git commit -m " process (task) 19/03/20 "
+  257  git push origin master
+  258  git remote add origin https://github.com/pranjalikawale/pranjali.git
+  259  ps -elf | grep java | grep -v grep
+  260  java hello &
+  261  ps -elf | grep java | grep -v grep | awk '{print $2}'
+  262  kill -9ps -elf | grep java | grep -v grep | awk '{print $2}'
+  263  ps -elf | grep java | grep -v grep
+  264  kill -9 'ps -elf | grep java | grep -v grep | awk '{print $2}''
+  265  kill -9 `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  266  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  267  echo $mypid
+  268  java hello &
+  269  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  270  echo $mypid
+  271  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  272  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  273  echo $mypid
+  274  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  275  mypid= `ps -elf | grep java | grep -v grep
+  276  mypid= `ps -elf | grep java | grep -v grep 
+  277  mypid= `ps -elf | grep java | grep -v grep 
+  278  clear
+  279  nano awk.sh
+  280  ps -elf | grep java | grep -v grep
+  281  clear
+  282  java hello &
+  283  ps -elf | grep java | grep -v grep
+  284  java hello &
+  285  ps -elf | grep java | grep -v grep
+  286  clear
+  287  javac hello.java
+  288  java hello &
+  289  ps -elf | grep java | grep -v grep
+  290  ps -elf | grep java | grep -v grep
+  291  helloclear
+  292  clear
+  293  javac hello.java
+  294  java hello &
+  295  ps -elf 
+  296  ps -elf | grep java | grep -v grep
+  297  nano hello,java
+  298  clear
+  299  cd pranjalikawale/terminalcommand
+  300  java hello &
+  301  ps -elf | grep java | grep -v grep
+  302  ps -elf | grep java | grep -v grep | awk '{print $2}'
+  303  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  304  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  305  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  306  $mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  307  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  308  echo $mypid
+  309  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  310  mypid= `ps -elf | grep java | grep -v grep | awk '{$2}'`
+  311  mypid= `ps -elf | grep java | grep -v grep | awk '{$2}'`
+  312  echo mypid
+  313  echo $mypid
+  314  mypid= `ps -elf | grep java | grep -v grep | awk '{$2}'`
+  315  echo mypid= `ps -elf | grep java | grep -v grep | awk '{$2}'`
+  316  mypid= `ps -elf | grep java | grep -v grep | awk '{$2}'`
+  317  mypid= `ps -elf | grep java | grep -v grep | awk '{$2}'`
+  318  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  319  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  320  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  321  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  322  echo 
+  323  kill -9 $mypid
+  324  killall
+  325  killall ps
+  326  ps killall
+  327  echo 
+  328  echo hello  tom  
+  329  echo hello tom  
+  330  echo hello tom  
+  331  echo hello tom  | awk {print $0}
+  332  echo hello tom  
+  333  echo hello tom  | awk {print $0}
+  334  echo hello tom  | awk {print $0}
+  335  echo hello tom  | awk {print $0}
+  336  echo hello tom  | awk '{print $0}'
+  337  echo hello tom  | awk  '{print $0}'
+  338  echo hello tom  | awk '{$2=Adam}'
+  339  echo hello tom  | awk {print $0}
+  340  echo hello tom  | awk '{print $0}'
+  341  echo hello tom  | awk '{$2=}''{print $0}'
+  342  kill
+  343  killall
+  344  pkill
+  345  kill
+  346  kill 1448
+  347  echo hello tom  | awk '{$2="adam"} {print $0}'
+  348  javac hello.java
+  349  java hello &
+  350  echo $mypid
+  351  ps -elf | grep java | grep -v grep | awk '{print $2}'
+  352  echo hello tom  | awk {print $0}
+  353  mypid= `ps -elf | grep java | grep -v grep | awk '{$2}'`
+  354  ps killall
+  355  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  356  echo $mypid
+  357  nano awk
+  358  nano awk.sh
+  359  history
+  360  cd pranjalikawale/terminalcommand
+  361  javac hello.java
+  362  java hello &
+  363  mypid= `ps -elf | grep java | grep -v grep 
+  364  cd pranjalikawale/terminalcommand
+  365  javac hello.java
+  366  java hello &
+  367  ps -elf | grep java | grep -v grep
+  368  mypid= ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  369  ps -elf | grep java | grep -v grep | awk '{print $2}'
+  370  nano awk
+  371  mypid= ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  372  cd pranjalikawale/terminalcommand
+  373  nano -T 3 hello.java
+  374  javac hello.java
+  375  java hello &
+  376  ps -elf | grep java | grep -v grep | awk '{print $2}'
+  377  mypid= ps -elf | grep java | grep -v grep | awk '{print $2}'`
+
+  378  mypid= `ps -elf | grep java | grep -v grep | awk '{print $2}'`
+  379  echo mypid
+  380  echo $mypid
+  381  echo hello tom  
+  382  echo hello tom  
+  383  echo hello tom  | awk {print $0}
+  384  echo hello tom  | awk '{print $0}'
+  385  echo hello tom  | awk '{$2="Admn"}{print $2}'
+  386  echo hello tom  | awk '{$2="Admn"}{print $0}'
+  387  czt data.csv
+  388  cat data.csv
+  389  touch data.csv
+  390  cat> data.csv
+  391  cat data.csv | grep captain | awk '{print $2 " " $4}'
+  392  cat data.csv | grep captain | awk '{sum=+$4}{print sum}'
+  393  cat data.csv | grep captain | awk '{sum+=$4}{print sum}'
+  394  cat data.csv | grep captain | awk '{sum+=$4}END{print sum}'
+  395  cat data.csv | grep captain | awk '{sum+=$4}END{print sum}'
+  396  cat data.csv | grep captain | awk '{sum+=$4}END{print sum}'
+  397  cat data.csv | grep captain | awk '{sum+=$3}END{print sum}'
+  398  cat data.csv | grep captain | awk '{sum+=$3}END{print sum/NR}'
+  399  kill -9 `ps -elf | grep java | grep -v grep| awk '{print $2}'
+kill -9 `ps -elf | grep java | grep -v grep| awk '{print $2}''
+kill -9 `ps -elf | grep java | grep -v grep| awk '{print $2}'
+kill -9 `ps -elf | grep java | grep -v grep| awk '{print $2}'`
+  400  awk.sh
+  401  nano awk.sh
+  402  nano awk.sh
+  403  cat >data.csv 
+  404  nano awk.sh
+  405  cat data | grep captain | awk '{sum+=$4}{print sum}'
+  406  cat data.csv | grep captain | awk '{sum+=$4}{print sum}'
+  407  cat data.xlsx | grep captain | awk '{sum+=$4}{print sum}'
+  408  cat data.xlsx | grep captain | awk '{sum+=$4}END{print sum/NR}'
+  409  cat data csv
+  410  touch data.csv
+  411  cat >data.csv 
+  412  cat >data.csv 
+  413  nano awk.sh
+  414  git add .
+  415  git commit -m "awk (task) 19/03/20"
+  416  git push origin master
+  417  history >awk.txt
