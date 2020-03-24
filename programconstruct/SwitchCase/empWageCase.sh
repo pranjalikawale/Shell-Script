@@ -1,0 +1,19 @@
+#!/bin/bash -x
+
+ISPARTTIME=1
+ISFULLTIME=2
+EMPRATEPERHR=20
+EMPCHECK=$((RANDOM%3))
+
+case $EMPCHECK in
+	$ISFULLTIME)
+		EMPHRS=8;;
+
+	$ISPARTTIME)
+		EMPHRS=4;;
+
+	*)
+		EMPHRS=0;;
+esac
+
+salary=$(($EMPHRS*$EMPRATEPERHR))

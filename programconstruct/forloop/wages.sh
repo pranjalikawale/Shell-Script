@@ -8,4 +8,22 @@ WORKINGDAYS=20;
 
 for ((day=1;day<=$WORKINGDAYS;day++))
 do
-	empcheck
+	empcheck=$((RANDOM%3))
+	
+	case $empcheck in
+		$ISFULLTIME)
+			EMPHRS=8
+			;;
+		
+		$ISPARTIME)
+			EMPHRS=4
+			;;
+
+		*)
+			EMPHRS=0
+			;;
+	esac
+
+	salary=$(($EMPHRS*$EMPRATEPERHR))
+	total=$(($TOTALSALARY+$salary))
+done
