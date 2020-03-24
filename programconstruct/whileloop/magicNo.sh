@@ -12,7 +12,7 @@ do
 		SUM=0
 	fi
 
-	SUM+=$(($num%10))
+	SUM=$(($SUM+$(($num%10))))
 	num=$(($num/10))
 done
 

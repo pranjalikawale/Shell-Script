@@ -10,15 +10,15 @@ read choice
 read -p "Enter the input" val
 
 case $choice in
-	1)
-		echo "$((val*12))";; 
-	2)
+   1)
+      echo "$((val*12))";;
+   2)
       echo "$((val/12))" | bc;;
-	3)
+   3)
       echo "$((val/3.28))" | bc;;
-	4)
+   4)
       echo "$((val*3.28))" | bc;;
-	*)
+   *)
       echo "Invalid input";;
 
 esac
