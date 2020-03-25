@@ -2,11 +2,11 @@
 
 read -p "Read the number" num
 
-POWER=1
+power=1
 
 for ((i=1;i<=$num;i++))
 do
-	POWER=$((2*$POWER))
-	echo "$POWER"
+	power=$((2*$power))
+	echo "$power"
 done
 
