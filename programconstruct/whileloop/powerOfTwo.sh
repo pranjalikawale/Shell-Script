@@ -2,13 +2,14 @@
 
 read -p "Read the number" num
 
-POWER=1
-COUNTER=1
+power=1
+counter=1
+LIMIT=256
 
-while [[ $COUNTER -le $num	]]
+while [[ $power -le $LIMIT	]]
 do
-   POWER=$((2*$POWER))
-   echo "$POWER"
-	COUNTER=$(($COUNTER+1))
+   power=$((2*$power))
+   echo "$power"
+	counter=$(($counter+1))
 done
 
