@@ -10,7 +10,7 @@ MAX=2
 while [[ (($money -gt 0 )) && (($money -ne 200)) ]]
 do
 	val=$(( $((RANDOM % $((($MAX -$MIN)+1)) ))+$MIN))
-	if (( $val -eq 1 ))
+	if [[ $val -eq 1 ]]
 	then	
 		((money++))
 		((won++))
