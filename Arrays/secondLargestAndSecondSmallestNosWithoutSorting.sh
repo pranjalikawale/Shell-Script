@@ -1,14 +1,21 @@
 #!/bin/bash -x
 
-count=0
+function setter()
+{
+	count=0
 
-LOWER_LIMIT=100
-UPPER_LIMIT=999
+	LOWER_LIMIT=100
+	UPPER_LIMIT=999
 
-while [[(($count -lt 10))]]
-do
-   array[((count++))]=$((RANDOM%(($UPPER_LIMIT-$LOWER_LIMIT)+1)+$LOWER_LIMIT))
-done
+	while [[(($count -lt 10))]]
+	do
+   	array[((count++))]=$((RANDOM%(($UPPER_LIMIT-$LOWER_LIMIT)+1)+$LOWER_LIMIT))
+	done
+	
+	secondLargestNumber "${array[@]}"
+	secondSmallestNumber "${array[@]}"
+
+}
 
 function secondLargestNumber()
 {
@@ -50,5 +57,5 @@ function secondSmallestNumber()
 
    echo "Second smallest number is $secondSmallest"
 }
-secondLargestNumber "${array[@]}"
-secondSmallestNumber "${array[@]}"
+
+setter
