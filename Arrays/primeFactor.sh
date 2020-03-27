@@ -10,14 +10,15 @@ function primeFactor()
 
 	for (( i=2; i<=temp; i++ ))
 	do
-		for (( ;$((num%$i)) == 0 ;num=$((num/$i)) ))
+		while [[ $((num%$i)) == 0 ]]
 		do
 			array[counter++]=$i
+			num=$((num/$i)) 
    	done
 	done
 	
 	echo "Prime Factor of $temp "
-	echo "${array[@]}"
+	echo "${array[@]} "
 
 }
 
