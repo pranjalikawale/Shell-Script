@@ -5,7 +5,7 @@ LOWER_LIMIT=1
 UPPER_LIMIT_YEAR=93
 LOWER_LIMIT_YEAR=92
 
-counter=5
+counter=50
 declare -A cal
 declare -A birth
 
