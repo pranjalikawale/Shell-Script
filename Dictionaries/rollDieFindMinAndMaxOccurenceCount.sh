@@ -31,7 +31,7 @@ do
 	then
 		max=${occurence[$len]}
 		maxkey=$len
-
+	
 	elif (($min>=${occurence[$len]}))
 	then	
 		min=${occurence[$len]}
@@ -46,3 +46,4 @@ echo "Values: "${occurence[@]}
 
 echo "Minimum occurence of number $minkey on die"
 echo "Maximum occurence of number $maxkey on die"
+
