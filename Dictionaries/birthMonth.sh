@@ -31,38 +31,38 @@ do
 			echo "Month January:${birth[$LOWER_LIMIT]}"
 			;; 
 		2)
-      	echo "Month Feburary:${birth[$LOWER_LIMIT]}"
-      	;;
+      			echo "Month Feburary:${birth[$LOWER_LIMIT]}"
+      			;;
 		3)
-      	echo "Month March:${birth[$LOWER_LIMIT]}"
-      	;;
+      			echo "Month March:${birth[$LOWER_LIMIT]}"
+      			;;
 		4)
-      	echo "Month April:${birth[$LOWER_LIMIT]}"
-      	;;
+      			echo "Month April:${birth[$LOWER_LIMIT]}"
+      			;;
 		5)
 			echo "Month May:${birth[$LOWER_LIMIT]}"
 			;;
 		6)
-      	echo "Month June:${birth[$LOWER_LIMIT]}"
-      	;;
+      			echo "Month June:${birth[$LOWER_LIMIT]}"
+      			;;
 		7)
-      	echo "Month July:${birth[$LOWER_LIMIT]}"
-      	;;
+      			echo "Month July:${birth[$LOWER_LIMIT]}"
+      			;;
 		8)
 			echo "Month August:${birth[$LOWER_LIMIT]}"
 			;;
 		9)
-      	echo "Month September:${birth[$LOWER_LIMIT]}"
-      	;;
-   	10)
-      	echo "Month Octomber:${birth[$LOWER_LIMIT]}"
-      	;;
-   	11)
-      	echo "Month November:${birth[$LOWER_LIMIT]}"
-      	;;
-   	12)
-      	echo "Month December:${birth[$LOWER_LIMIT]}"
-      	;;
+      			echo "Month September:${birth[$LOWER_LIMIT]}"
+      			;;
+   		10)
+      			echo "Month Octomber:${birth[$LOWER_LIMIT]}"
+      			;;
+   		11)
+      			echo "Month November:${birth[$LOWER_LIMIT]}"
+      			;;
+   		12)
+      			echo "Month December:${birth[$LOWER_LIMIT]}"
+      			;;
 		esac
 	((LOWER_LIMIT++))
 done
