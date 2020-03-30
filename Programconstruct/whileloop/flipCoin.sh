@@ -1,7 +1,6 @@
 #!/bin/bash -x
 
 MIN=1
-MAX=2
 
 counter=0
 head=0
@@ -9,7 +8,7 @@ tail=0
 
 while [[(($counter -lt 11))]]
 do
-if [[(($((RANDOM%(MAX-MIN+1)+MIN)) == $MIN ))]]
+if [[(($((RANDOM%2)) == $MIN ))]]
 then
 	head=$((head+1))
 else
